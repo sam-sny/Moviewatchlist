@@ -176,4 +176,10 @@ flex-shrink: 0;
     .header-1>h3,.header-1>p{
         font-size: 14px;
     }
+    .movie-txt>p{
+        font-size: 10px;
+    }
+    .header-2>p, .labelEl{
+        font-size: 10px;
+    }
 }

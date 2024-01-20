@@ -61,7 +61,7 @@ document.getElementById("input-search").addEventListener("submit", function(e){
                                 </div>
                                 <p>${title.Plot}</p>
                         
-                                </div>
+                                
                             </div>
                     </div>
     `
