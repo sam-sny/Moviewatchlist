@@ -173,7 +173,7 @@ flex-shrink: 0;
     body {
       font-size: 14px;
     }
-    .header-1{
+    .header-1>h3,.header-1>p{
         font-size: 5px;
     }
 }
