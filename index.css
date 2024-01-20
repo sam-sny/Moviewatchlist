@@ -1,12 +1,13 @@
 html, body {
     margin: 0;
     padding: 0;
-    max-width: 550px;
-   
+    
+   margin-left: auto;
+   margin-right: auto;
 }
 .head{
     background: url("./THJJRUhNlEc.png"), black 0px -158.291px / 100% 423.007% no-repeat;
-    width: 550px;
+    width: 100%;
     height: 208px;
     color: whitesmoke;
 }
@@ -31,11 +32,15 @@ a{
     margin-right: 46px;
 }
 #input-search{
-    margin-left:auto ;
-    margin-right:auto ;
-    width: 60%;
+    justify-content: center;
     display: flex;
  margin-top: 5px;
+ align-items: center;
+}
+.fa-magnifying-glass{
+    margin-left: 150px;
+    margin-bottom: 10px;
+    
 }
 button{
     border-radius: 0px 6px 6px 0px;
@@ -138,18 +143,19 @@ flex-shrink: 0;
 }
 
 .Added-to-wishlist{
+    display: none;
     position: fixed;
-    top: 10px;
-    left: 200px;
-    right: 190px;
-    bottom: 550px;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
     border-radius: 10px;
     margin: auto;
     color: green;
     border: 1px solid gray;
     padding: 10px;
     text-align: center;
-    display: none;
+    width: 140px;
+    height: 20px;
     font-weight: bold;
     background: whitesmoke;
 }
