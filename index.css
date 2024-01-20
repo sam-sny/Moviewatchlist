@@ -173,4 +173,7 @@ flex-shrink: 0;
     body {
       font-size: 14px;
     }
+    .movie-txt{
+        font-size: 14px;
+    }
 }
