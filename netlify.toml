@@ -1,4 +1,4 @@
 [[redirects]]
-  from = "/*"
+  from = "/index.html"
   to = "/watchlist.html"
   status = 200
