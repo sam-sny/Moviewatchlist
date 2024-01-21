@@ -2,4 +2,5 @@
 
   from = "/*"
   to = "/index.html"
+  to = "/watchlist.html"
   status = 200
