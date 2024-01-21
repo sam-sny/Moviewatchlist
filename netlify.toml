@@ -4,6 +4,6 @@
   status = 200
 
 [[redirects]]
-  from = "/watchlist/*"
+  from = "/index.html"
   to = "/watchlist.html"
   status = 200
