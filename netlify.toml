@@ -1,6 +1,9 @@
 [[redirects]]
-
   from = "/*"
   to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/watchlist/*"
   to = "/watchlist.html"
   status = 200
